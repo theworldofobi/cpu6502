@@ -411,4 +411,8 @@ module cpu6502 (
     end
   end
 
+`ifdef FORMAL
+  `include "cpu6502_props.svh"
+`endif
+
 endmodule
